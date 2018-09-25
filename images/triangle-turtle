@@ -1,0 +1,11 @@
+from turtle import *
+shape("arrow")
+wheel=12
+bgcolor("white")
+pensize(5)
+pencolor("gold")
+speed(5)
+for i in range(wheel):
+    begin_fill();rt(90);fd(200);lt(120);fd(200);lt(120);fd(200);end_fill()
+    fd(200)
+turtle.exitonclick()
